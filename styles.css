@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2? family= Athiti:wght@400;500;600 & display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Athiti', sans-serif;
+}
+
+section{
+    height: 100vh;
+}
+
+section#hero{
+    background-color: lightcyan;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.proyect-foto img{
+    width: 300px;
+}
+
+h1{
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 25px;
+}
+
+h3{
+    padding: 5px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+h4{
+    padding: 20px;
+    font-size: 2rem;
+    text-align: center;
+    color: #4844a9;
+}
+
+h5{
+    padding: 20px;
+    font-size: 2rem;
+    text-align: center;
+    color: #4844a9;
+}
+
+h6{
+    padding: 20px;
+    font-size: 2rem;
+    text-align: center;
+    color: #4844a9;
+}
+
+p{
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+}
+
+.datos{
+    margin-top: 80px;
+    font-size: 18px;
+}
+
+.contenedor{
+    font-size: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.Cursos-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.curso-detail{
+    border: 10px solid lightgrey;
+    border-radius: 15px;
+    width: 200px;
+    margin: 20px;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center ;
+}
+
+.curso-detail img{
+    width: 100%;
+}
+
+section button{
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 15px;
+    background-color: lightblue;
+    border: 0;
+    width: 200px;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: aliceblue;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px 20px;
+    background-color: lightgray;
+}
+
+section#contact{
+    width: 300px;
+    height: 150px;
+    max-width: 100%;
+    margin: auto;
+    padding: 20px;
+}
+
+.form form div label{
+    display: block;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px 20px;
+    background-color: lightgray;
+}
+
+
+.form form div input{
+    display: block;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px 20px;
+
+}
+
+
+.form form button{
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 15px;
+    background-color: lightblue;
+    border: 0;
+    width: 200px;
+}
+
+
+

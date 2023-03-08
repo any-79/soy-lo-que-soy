@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum Vitae</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Project</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <h1>CURRICULUM VITAE</h1>
+            <div class="proyect-foto">
+                <img src="imagenes/imagen 1.jpg" alt="">
+            </div>
+            <h2>Pilar Del Monte</h2>
+            <h3>Diseñadora Gráfica-Fotógrafa</h3>
+        </section>
+        <section class="datos peronales">
+            <h3>Sobre Mí</h3>
+            <h4>Datos Personales</h4>
+            <p>Me dedico a producir ideas creativas, originales para mis clientes combinando el Diseño y la Fotografía.</p>
+            <h5>Perfil Profesional-Formación</h5>
+            <p>Soy Diseñadora Gráfica y Fotógrafa con más de 10 años de experiencia, trabajando en agencias y empresa final.
+               Me he especializado en desarrollo de imagen coorporativa, diseño de material publicitario y de marketing online.
+               Título Superior en Diseño Gráfico
+               Maestria en Fotografía Profesional
+               Idiomas:  Inglés y Frances</p>
+            <h6>Experiencia</h6>   
+            <p>Industrias Internacionales Unidas-Agencia de Marketing Altoamor-Freelance</p>
+            <div class="contenedor">
+                <div class="social-media">
+                    <i class='bx bxl-instagram'></i>
+                </div>
+                <div>
+                    <p id="demo"> Mi Red Social</p>
+                    <button tipe="button" id="boton">click aquí</button>
+                </div>
+        </section>
+
+        <section id="proyects">
+            <h2>Proyectos Cursos Realizados</h2>
+            <div class="Cursos-list">
+
+                <div class="curso-detail">
+                    <img src="./imagenes/curso 1.jpg" alt="">
+                    <h3>Curso 1</h3>
+                    <p>Curso de Fotografía Nivel Inicial</p>
+                    <a href="https://www.youtube.com/watch">Enlace al curso</a>
+                </div>
+
+                <div class="curso-detail">
+                    <img src="./imagenes/curso 2.jpg" alt="">
+                    <h3>Curso 2</h3>
+                    <p>Curso de Fotografía Profesional</p>
+                    <a href="https://www.youtube.com/watch">Enlace al curso</a>
+                </div>
+
+                <div class="curso-detail">
+                    <img src="./imagenes/curso 3.jpg" alt="">
+                    <h3>Curso 3</h3>
+                    <p>Curso de Fotografía con tu teléfono</p>
+                    <a href="https://www.youtube.com/watch">Enlace al curso</a>
+                </div>
+
+                <div class="curso-detail">
+                    <img src="./imagenes/curso 4.jpg" alt="">
+                    <h3>Curso 4</h3>
+                    <p>Curso Profesional Photoshop para Fotografía</p>
+                    <a href="https://www.youtube.com/watch">Enlace al curso</a>
+                </div>
+                
+            </div>
+        </section >
+        <section id="contact" class="form">
+            <h2>Contactame</h2>
+                <form action="" method="post">
+                    <div>
+                       <label for="nombre">Nombre</label>
+                       <input type="text" id="nombre" name="nombre" placeholder="Escribe tu Nombre" required="required">
+                    </div>
+                    <div>
+                        <label for="apellido">Apellido</label>
+                        <input type="text" id="apellido" name="apellido" placeholder="Escribe tu Apellido" required="required">
+                     </div>
+                     <div>
+                        <label for="e-mail">e-mail</label>
+                        <input type="email" id="e-mail" name="e-mail" placeholder="Escribe tu e-mail" required="required">
+                     </div>
+                     <div>
+                        <label for="teléfono">teléfono</label>
+                        <input type="number" id="number" name="number" placeholder="Escribe tu teléfono" required="required">
+                     </div>
+                     <div>
+                        <label for="motivo del contacto">Motivo del Contacto</label>
+                        <textarea></textarea>
+                     </div>
+                     <button>Enviar</button>
+                </form>
+        </section>
+    </main>
+    <footer></footer>
+    <script src="js/function.js"></script>
+</body>
+</html>
